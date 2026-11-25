@@ -1,0 +1,7 @@
+Permutation,Features,Cross Validated RMSE,Test RMSE,Test MAE,Test R2
+All 6 predictors,"['age', 'bmi', 'children', 'sex', 'smoker', 'region']",6123.651283667275,5956.342894363587,4177.045561036326,0.8069287081198012
+Without Region,"['age', 'bmi', 'children', 'sex', 'smoker']",6113.8493803455785,5991.820601004326,4198.111800474601,0.804621881177266
+Without BMI,"['age', 'children', 'sex', 'smoker', 'region']",6393.531849215999,6442.5873609973905,4135.060216519118,0.7741193896338585
+Without Smoker,"['age', 'bmi', 'children', 'sex', 'region']",11070.039290892679,12608.445240181825,9546.180518873056,0.13486995814675573
+Without Sex,"['age', 'bmi', 'children', 'smoker', 'region']",6121.995216987533,5957.529931979729,4177.653337355684,0.8068517462232097
+Combined removals,"['age', 'bmi', 'children', 'smoker']",6112.291799577334,5992.875059638205,4198.592612356365,0.8045531086669289
